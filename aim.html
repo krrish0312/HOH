@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Aim - Hands On Hope</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>.container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .header__nav {
+        background-color:rgb(252 242 234) ;
+    }
+    .header__menu {
+        background-color: rgb(252 242 234);
+    }
+
+    .header__menu {
+    list-style: none;
+    padding: 0;
+}
+
+.header__menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.header__menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.header__menu a:hover {
+    text-decoration: underline;
+}
+    /* Our Aim Section with Background Image */
+    .our-aim {
+        padding: 50px 20px;
+        background: url('/Users/krrrish/Desktop/HOH (Visual Studio)/809a88e03c6f242e8ea39c69429e2001.webp') no-repeat center center/cover;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        position: relative;
+        z-index: 1;
+    }
+    
+    .our-aim::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5); /* Adds dark overlay */
+        z-index: -1;
+    }
+    
+    .our-aim h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+    
+    .our-aim p {
+        font-size: 18px;
+        line-height: 1.6;
+        color: #fff;
+        max-width: 800px;
+        margin: 10px auto;
+    }
+    
+    /* Footer */
+    footer {
+        background-color: #333;
+        padding: 20px;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .footer-menu {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .footer-menu li {
+        display: inline;
+        margin: 0 10px;
+    }
+    
+    .footer-menu li a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 14px;
+    }</style>
+</head>
+<body>
+
+    <!-- Header (reused from main site) -->
+    <header>
+        <nav class="header__nav">
+            <div class="header__logo">
+                <img src="/Users/krrrish/Desktop/HOH (Visual Studio)/1.png" alt="Hands On Hope Logo" height="100">
+                <h2>Hands On Hope</h2>
+            </div>
+            <ul class="header__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/Users/krrrish/Desktop/HOH (Visual Studio)/AU.html">About Us</a></li>
+                <li><a href="volunteer.html">Volunteering Opportunities</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Our Aim Section -->
+    <section id="aim" class="our-aim">
+        <div class="container">
+            <h1>Our Aim</h1>
+            <p>
+                Hands on Hope is a student-driven organization dedicated to empowering young people to take initiative in addressing global and local challenges through meaningful, hands-on involvement. We believe that by integrating creativity, activity, and service (CAS), individuals can develop the skills and mindset needed to make lasting contributions to society. Our projects span diverse areas, including environmental conservation, education, and community well-being, with a strong focus on sustainability and inclusivity.
+</p>
+<br>
+<p>
+Through workshops, volunteering opportunities, and collaborative efforts, Hands on Hope encourages youth to become leaders, problem-solvers, and advocates for change. By offering a platform for students to engage with real-world issues, we aim to inspire a sense of responsibility and a lifelong commitment to making the world a better place.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer (optional) -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Hands On Hope. All rights reserved.</p>
+            <ul class="footer-menu">
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms & Conditions</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
